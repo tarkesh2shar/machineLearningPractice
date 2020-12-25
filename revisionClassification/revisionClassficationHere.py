@@ -261,9 +261,9 @@ for i, j in enumerate(np.unique(y_set)):
 """
 plt.scatter(X_set[:,[0]],X_set[:,[1]],)
 """
-plt.title('Logistic Regression (Training set)')
-plt.xlabel('Age')
-plt.ylabel('Estimated Salary')
+plt.title('Logistic Regression Classifier (Training set)')
+plt.xlabel('X-axis')
+plt.ylabel('Y- Axis')
 plt.legend()
 #mng = plt.get_current_fig_manager()
 
@@ -297,9 +297,9 @@ for i, j in enumerate(np.unique(y_set)):
 """
 plt.scatter(X_set[:,[0]],X_set[:,[1]],)
 """
-plt.title('Logistic Regression (Training set)')
-plt.xlabel('Age')
-plt.ylabel('Estimated Salary')
+plt.title('K nearest neighbour Classifier (Training set)')
+plt.xlabel('X - Axis')
+plt.ylabel('Y - Axis')
 plt.legend()
 #mng = plt.get_current_fig_manager()
 
@@ -334,9 +334,9 @@ for i, j in enumerate(np.unique(y_set)):
 """
 plt.scatter(X_set[:,[0]],X_set[:,[1]],)
 """
-plt.title('Logistic Regression (Training set)')
-plt.xlabel('Age')
-plt.ylabel('Estimated Salary')
+plt.title('Support Vector Machine Classifier  (Training set)')
+plt.xlabel('X axis')
+plt.ylabel('Y Axis')
 plt.legend()
 #mng = plt.get_current_fig_manager()
 
@@ -371,9 +371,9 @@ for i, j in enumerate(np.unique(y_set)):
 """
 plt.scatter(X_set[:,[0]],X_set[:,[1]],)
 """
-plt.title('Logistic Regression (Training set)')
-plt.xlabel('Age')
-plt.ylabel('Estimated Salary')
+plt.title('Naive baise Classifier (Training set)')
+plt.xlabel('X AXIS')
+plt.ylabel('Y Axis')
 plt.legend()
 #mng = plt.get_current_fig_manager()
 
@@ -408,9 +408,9 @@ for i, j in enumerate(np.unique(y_set)):
 """
 plt.scatter(X_set[:,[0]],X_set[:,[1]],)
 """
-plt.title('Logistic Regression (Training set)')
-plt.xlabel('Age')
-plt.ylabel('Estimated Salary')
+plt.title('Desision Tree Classifier (Training set)')
+plt.xlabel('X-AXIS')
+plt.ylabel('Y-AXIS')
 plt.legend()
 #mng = plt.get_current_fig_manager()
 
@@ -446,9 +446,9 @@ for i, j in enumerate(np.unique(y_set)):
 """
 plt.scatter(X_set[:,[0]],X_set[:,[1]],)
 """
-plt.title('Logistic Regression (Training set)')
-plt.xlabel('Age')
-plt.ylabel('Estimated Salary')
+plt.title('Random Forest Classifier (Training set)')
+plt.xlabel('X-Axis')
+plt.ylabel('Y-Axis')
 plt.legend()
 #mng = plt.get_current_fig_manager()
 
